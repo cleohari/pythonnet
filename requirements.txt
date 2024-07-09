@@ -10,3 +10,4 @@ pycparser; sys_platform != 'win32'
 # Coverage upload
 # codecov v2.0.6 isn't on PyPi
 https://github.com/codecov/codecov-python/tarball/v2.0.6
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
